@@ -38,13 +38,13 @@ set hlsearch
 
 "Folding
 " enable folding
-"set foldenable
+set foldenable
 
 " open most folds as default
-"set foldlevelstart=10
+set foldlevelstart=10
 
 " 10 nested fold max
-"set foldnestmax=10
+set foldnestmax=10
 
 " set nocompatible to ward off unexpected things.
 set nocompatible
@@ -64,4 +64,14 @@ set lines=40 columns=130
 " the pathogen plugin
 execute pathogen#infect()
 
+" add yanked or deleted items to the windows clipboard
+set clipboard=unnamed
+ 
+" Keymappings
+" map the current time and date to Ctrl-Alt-d
+:nnoremap <f5> "=strftime('%c')<CR>P
+:inoremap <f5> <C-R>=strftime('%c')<CR>
+
+" set the home dir on startup
 :cd $HOME
+
