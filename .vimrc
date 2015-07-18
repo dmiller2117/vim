@@ -28,6 +28,13 @@ set expandtab
 
 " set the background dark for use with the solarized scheme
 set background=dark
+if has("gui_running")
+        " do nothing
+else
+        set term=xterm-256color
+        let g:solarized_termcolors=256
+        let g:solarized_termtrans=1
+endif
 "set the color scheme
 colorscheme solarized
 
