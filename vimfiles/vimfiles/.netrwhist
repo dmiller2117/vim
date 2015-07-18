@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='C:/Users/Dave'
-let g:netrw_dirhist_2='C:/Users/Dave/workspace'
-let g:netrw_dirhist_3='C:/Users/Dave/workspace/CodingBat'
-let g:netrw_dirhist_4='C:/Users/Dave/workspace/CodingBat/src'
-let g:netrw_dirhist_5='C:/Users/Dave/workspace/CodingBat/src/codingbat'
-let g:netrw_dirhist_6='C:/Users/Dave/workspace/CodingBat/src/codingbat/warmup1'
