@@ -8,4 +8,4 @@ Adding vimfiles.
 Adding the [solarized colour scheme](http://ethanschoonover.com/solarized)
 
 # vimwiki
-02/04/2016 12:11:27  Adding vimWiki [VimWiki](https://github.com/vimwiki/vimwiki)
+02/04/2016 12:11:27  Adding vimWiki, see [VimWiki](https://github.com/vimwiki/vimwiki)
