@@ -18,13 +18,22 @@ syntax enable
 
 " Spaces and tabs
 " number of visual spaces per tab
-set tabstop=4
+"set tabstop=4
 
 " number of spaces in tab while editing
 set softtabstop=4
 
+" indenting is 4 spaces
+set shiftwidth=4
+
 " tabs are spaces
 set expandtab
+
+" turns it on 
+set autoindent
+
+" do the right thing (mostly)
+set smartindent
 
 " set the background dark for use with the solarized scheme
 set background=dark
@@ -80,8 +89,15 @@ set wildmode=list:longest
 " set the gui font
 set guifont=Courier_NEW:h10
 
-" set the window size
-set lines=50 columns=140
+if has("gui_running")
+        " do nothing
+else
+        " set the window size
+        " set lines=50 columns=140
+endif
+
+" Maximise the window on startup
+au GUIEnter * simalt ~x
 
 " Inverts the screen colours if their is an error, instead of a sound.:
 set visualbell
